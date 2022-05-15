@@ -20,7 +20,7 @@ p {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .app {
@@ -84,9 +84,13 @@ html::-webkit-scrollbar {
 
 .app .description {
   position: relative;
-  right: -90%;
-  transform-origin: 0 0;
-  transform: rotate(269deg);
+  right: -50%;
+  
+}
+
+.app .description p {
+  font-size: 3.5rem;
+  
 }
 
 .app .bottom {

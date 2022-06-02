@@ -1,5 +1,5 @@
 # Weather app
-This app is built using React JS and fetches data using axios and the APi I have used is Open Weather Api.
+This app is built using React JS and fetches data using axios and the API I have used is Open Weather Api.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

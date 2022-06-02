@@ -20,6 +20,7 @@ function App() {
   return (
     <div className="app">
       <div className="search">
+      <p>WeatherU</p>
         <input
           value={location}
           onChange={event => setLocation(event.target.value)}
@@ -30,7 +31,7 @@ function App() {
       <div className="container">
         <div className="top">
           <div className="location">
-            <p>{data.name}</p>
+            <p> {data.name}</p>
           </div>
           <div className="temp">
             {data.main ? <h1>{data.main.temp.toFixed()}°C</h1> : null}

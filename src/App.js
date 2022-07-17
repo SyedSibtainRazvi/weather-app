@@ -27,7 +27,7 @@ function App() {
           onKeyPress={searchLocation}
           placeholder='Enter Location'
           type="text" />
-      </div>
+      </div> 
       <div className="container">
         <div className="top">
           <div className="location">

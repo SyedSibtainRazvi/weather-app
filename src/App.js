@@ -16,7 +16,6 @@ function App() {
       setLocation("");
     }
   };
-  console.log(data);
 
   return (
     <div className="app">

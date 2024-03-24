@@ -1,16 +1,12 @@
-name: Run Check Logs Action
+name: My Workflow
 
 on:
   pull_request:
     types: [opened, reopened, synchronize]
 
 jobs:
-  run_check_logs_action:
+  check_logs:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Run Check Logs Action
+      - name: Check Logs
         uses: SyedSibtainRazvi/check_logs@main
-        # Add any inputs if your action requires them

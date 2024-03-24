@@ -1,3 +1,9 @@
+name: Check Logs
+
+on:
+  pull_request:
+    types: [opened]
+
 jobs:
   my_job:
     runs-on: ubuntu-latest

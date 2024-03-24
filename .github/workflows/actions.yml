@@ -1,12 +1,17 @@
-name: Check Logs
+name: Run Check Logs Action
 
 on:
-  pull_request:
-    types: [opened, reopened, synchronize]
+  push:
+    branches:
+      - main
 
 jobs:
-  my_job:
+  run_check_logs_action:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Logs
-        uses: check_logs@v1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run Check Logs Action
+        uses: check_logs@^1.0.0
+        # Add any inputs if your action requires them

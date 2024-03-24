@@ -5,7 +5,7 @@ on:
     types: [opened, reopened, synchronize]
 
 jobs:
-  check_logs:
+  my_job:
     runs-on: ubuntu-latest
     steps:
       - name: Check Logs

@@ -13,5 +13,5 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Check Logs Action
-        uses: check_logs@^1.0.0
+        uses: SyedSibtainRazvi/check_logs@main
         # Add any inputs if your action requires them

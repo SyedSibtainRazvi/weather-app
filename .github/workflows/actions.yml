@@ -1,8 +1,6 @@
 name: Check Logs
 
-on:
-  pull_request:
-    types: [opened]
+on: [pull_request]
 
 jobs:
   my_job:

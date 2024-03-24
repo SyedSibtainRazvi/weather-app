@@ -1,0 +1,12 @@
+name: My Workflow
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Logs
+        uses: SyedSibtainRazvi/check_logs@main

@@ -1,9 +1,8 @@
 name: Run Check Logs Action
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 jobs:
   run_check_logs_action:

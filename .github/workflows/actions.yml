@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Logs
-        uses: SyedSibtainRazvi/check_logs@v1.0.0
+        uses: check_logs@v1
